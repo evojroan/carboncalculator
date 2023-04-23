@@ -1,4 +1,4 @@
-import styles from './App.scss';
+import styles from './App.module.scss';
 import SideNav from './components/SideNav/SideNav.jsx';
 import Main from './components/Main/Main.jsx';
 
@@ -8,7 +8,6 @@ function App() {
     <div className={styles.AppContainer}>
       <SideNav />
       <Main />
-
     </div>
   );
 }
