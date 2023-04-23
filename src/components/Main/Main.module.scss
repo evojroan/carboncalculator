@@ -1,0 +1,29 @@
+.Main {
+  border: 1px solid black;
+  height: 550px;
+  width: 650px;
+  display: flex;
+
+  .MainLeft {
+    border: 1px solid green;
+    height: 250px;
+    width: 300px;
+  }
+
+  .MainRight {
+    border: 1px solid blue;
+    height: 250px;
+    width: 300px;
+
+    .MainRightUp {
+      border: 1px solid purple;
+      height: 100px;
+      width: 290px;
+    }
+    .MainRightDown {
+      border: 1px solid brown;
+      height: 100px;
+      width: 290px;
+    }
+  }
+}
