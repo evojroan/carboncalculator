@@ -1,9 +1,12 @@
 import styles from './Main.module.scss';
+import CountryList from './CountryList.jsx';
 
 export default function Main() {
   return (
     <div className={styles.Main}>
-      <div className={styles.MainLeft}>MainLeft</div>
+      <div className={styles.MainLeft}>
+        <CountryList />
+      </div>
       <div className={styles.MainRight}>
         <div className={styles.MainRightUp}>
           <h2>排碳量：什麼都吃</h2>
