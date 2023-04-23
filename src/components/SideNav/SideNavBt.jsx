@@ -1,7 +1,7 @@
-import styles from './SideNavBt.module.scss';
+import styles from "./SideNavBt.module.scss";
 
-function SideNavBt() {
-  return <div className={styles.container}>SideNavBt test</div>;
+function SideNavBt({ title }) {
+  return <div className={styles.button}>{title}</div>;
 }
 
 export default SideNavBt;
