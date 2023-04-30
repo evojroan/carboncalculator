@@ -1,3 +1,11 @@
 .AppContainer {
-  display: flex;
+  display: column;
+  background-image: url('./assets/forest2.jpg');
+  height: 500px;
+  width: 100%;
+}
+
+.about {
+  width: 70%;
+  margin: 1%;
 }

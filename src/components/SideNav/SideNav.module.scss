@@ -1,7 +1,11 @@
 .container {
-  background-color: rgb(255, 255, 255);
-  width: 350px;
-  height: 550px;
-  border: 1px solid black;
-  margin-left: 100px;
+  width: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.SideNavBt {
+  margin: 1% 2% 1% 2%;
 }

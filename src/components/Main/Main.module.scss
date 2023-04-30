@@ -1,29 +1,14 @@
 .Main {
-  border: 1px solid black;
-  height: 550px;
-  width: 650px;
   display: flex;
+  align-items: top;
+  justify-content: center;
+  width: 100%;
 
-  .MainLeft {
-    border: 1px solid green;
-    height: 250px;
-    width: 300px;
-  }
-
+  .MainLeft,
   .MainRight {
-    border: 1px solid blue;
-    height: 250px;
-    width: 300px;
-
-    .MainRightUp {
-      border: 1px solid purple;
-      height: 100px;
-      width: 290px;
-    }
-    .MainRightDown {
-      border: 1px solid brown;
-      height: 100px;
-      width: 290px;
-    }
+    background-color: rgb(200, 200, 200, 0.5);
+    margin: 0px 7px;
+    padding: 1%;
+    border-radius: 15px;
   }
 }

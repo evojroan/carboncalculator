@@ -1,12 +1,26 @@
 import styles from './App.module.scss';
-import SideNav from './components/SideNav/SideNav.jsx';
+import Header from './components/Header/Header.jsx';
+
 import Main from './components/Main/Main.jsx';
+import AboutCarbon from './components/Main/AboutCarbon/AboutCarbon.jsx';
+import AboutMe from './components/Main/AboutMe/AboutMe.jsx';
+import { useState } from 'react';
 
 function App() {
+  const [currentPage, setCurrentPage] = useState('Footprint');
+  function changePage(childData) {
+    setCurrentPage(childData);
+  }
   return (
-    <div className={styles.AppContainer}>
-      <SideNav />
-      <Main />
+    <div className={styles.App}>
+      <div className={styles.AppContainer}>
+        <Header propToSideNav={changePage} />
+        <Main selectedPage={currentPage} />
+      </div>
+      <div className={styles.about}>
+        <AboutCarbon />
+        <AboutMe />
+      </div>
     </div>
   );
 }
