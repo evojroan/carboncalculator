@@ -22,18 +22,10 @@ export default function AboutMe() {
       </span>
       <span>
         <a
-          href='https://www.cakeresume.com/me/roan-d631cd'
+          href='https://twitter.com/evoj_roan'
           target='_blank'
           rel='noreferrer'>
-          <h4>CakeResume</h4>
-        </a>
-      </span>
-      <span>
-        <a
-          href='https://www.linkedin.com/in/jung%E3%80%80an-ho-736a7a179/'
-          target='_blank'
-          rel='noreferrer'>
-          <h4>LinkedIn</h4>
+          <h4>Twitter</h4>
         </a>
       </span>
       <span>
