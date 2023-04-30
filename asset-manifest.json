@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/carboncalculator/static/css/main.b5578f63.css",
+    "main.css": "/carboncalculator/static/css/main.1a19ff43.css",
     "main.js": "/carboncalculator/static/js/main.9fb3f649.js",
     "static/js/787.8df9c3a9.chunk.js": "/carboncalculator/static/js/787.8df9c3a9.chunk.js",
     "static/media/forest2.jpg": "/carboncalculator/static/media/forest2.89cf51ec77f86f1eac28.jpg",
     "index.html": "/carboncalculator/index.html",
-    "main.b5578f63.css.map": "/carboncalculator/static/css/main.b5578f63.css.map",
+    "main.1a19ff43.css.map": "/carboncalculator/static/css/main.1a19ff43.css.map",
     "main.9fb3f649.js.map": "/carboncalculator/static/js/main.9fb3f649.js.map",
     "787.8df9c3a9.chunk.js.map": "/carboncalculator/static/js/787.8df9c3a9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b5578f63.css",
+    "static/css/main.1a19ff43.css",
     "static/js/main.9fb3f649.js"
   ]
 }
